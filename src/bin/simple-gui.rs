@@ -1,7 +1,4 @@
-// TODO: remove this when you're done with your implementation.
-#![allow(unused_imports, unused_variables, dead_code)]
 
-use std::u64::MAX;
 
 pub trait Widget {
     /// Natural width of `self`.
