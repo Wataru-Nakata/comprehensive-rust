@@ -1,0 +1,267 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'luhn'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=luhn",
+                    "--package=comprehensive-rust"
+                ],
+                "filter": {
+                    "name": "luhn",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'luhn'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=luhn",
+                    "--package=comprehensive-rust"
+                ],
+                "filter": {
+                    "name": "luhn",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'health-statistics'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=health-statistics",
+                    "--package=comprehensive-rust"
+                ],
+                "filter": {
+                    "name": "health-statistics",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'health-statistics'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=health-statistics",
+                    "--package=comprehensive-rust"
+                ],
+                "filter": {
+                    "name": "health-statistics",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'points-polygons'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=points-polygons",
+                    "--package=comprehensive-rust"
+                ],
+                "filter": {
+                    "name": "points-polygons",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'points-polygons'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=points-polygons",
+                    "--package=comprehensive-rust"
+                ],
+                "filter": {
+                    "name": "points-polygons",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'safe-ffi'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=safe-ffi",
+                    "--package=comprehensive-rust"
+                ],
+                "filter": {
+                    "name": "safe-ffi",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'safe-ffi'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=safe-ffi",
+                    "--package=comprehensive-rust"
+                ],
+                "filter": {
+                    "name": "safe-ffi",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'greet'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=greet",
+                    "--package=comprehensive-rust"
+                ],
+                "filter": {
+                    "name": "greet",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'greet'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=greet",
+                    "--package=comprehensive-rust"
+                ],
+                "filter": {
+                    "name": "greet",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'web-server'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=web-server",
+                    "--package=comprehensive-rust"
+                ],
+                "filter": {
+                    "name": "web-server",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'web-server'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=web-server",
+                    "--package=comprehensive-rust"
+                ],
+                "filter": {
+                    "name": "web-server",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'simple-gui'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=simple-gui",
+                    "--package=comprehensive-rust"
+                ],
+                "filter": {
+                    "name": "simple-gui",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'simple-gui'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=simple-gui",
+                    "--package=comprehensive-rust"
+                ],
+                "filter": {
+                    "name": "simple-gui",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

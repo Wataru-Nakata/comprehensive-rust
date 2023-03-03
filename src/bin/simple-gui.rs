@@ -1,4 +1,4 @@
-
+#![allow(unused_variables, dead_code)]
 
 pub trait Widget {
     /// Natural width of `self`.

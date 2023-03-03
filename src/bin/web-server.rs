@@ -50,3 +50,4 @@ fn test_matches_with_wildcard() {
         "/v1/publishers/foo/booksByAuthor"
     ));
 }
+fn main(){}
